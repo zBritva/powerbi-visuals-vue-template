@@ -1,0 +1,42 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Data",
+            "name": "data",
+            "kind": "GroupingOrMeasure"
+        }
+    ],
+    "objects": {
+        
+    },
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "data"
+                            }
+                        }
+                    ],
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 30000
+                        }
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "bind": {
+                                "to": "data"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "supportsLandingPage": true
+}

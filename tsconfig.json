@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "sourceMap": true,
+        "outDir": "./.tmp/build/",
+        "moduleResolution": "node",
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "plotly-js-editor": ["./../react-chart-editor/src"],
+        }
+    },
+    "files": [
+        "src/visual.ts",
+    ],
+    "include": [
+        "src/shims-vue.d.ts",
+        "src/**/*.vue",
+    ],
+}

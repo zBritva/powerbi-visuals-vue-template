@@ -1,0 +1,25 @@
+   
+{
+    "author": {
+      "name": "Akvelon Inc",
+      "email": "pbisupport@akvelon.com"
+    },
+    "visual": {
+      "name": "vueProjectVisualTempalte",
+      "displayName": "vue project teample for visual by Akvelon",
+      "guid": "vueProjectVisualTempalte",
+      "visualClassName": "Visual",
+      "version": "1.0.0.0",
+      "description": "Template",
+      "supportUrl": "http://akvelon.com/feedback",
+      "gitHubUrl": "https://github.com/akvelon"
+    },
+    "apiVersion": "3.8.0",
+    "assets": {
+      "icon": "assets/icon.svg"
+    },
+    "externalJS": [],
+    "style": "style/visual.scss",
+    "capabilities": "capabilities.json",
+    "stringResources": []
+  }
