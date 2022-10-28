@@ -98,6 +98,7 @@ module.exports = {
                         options: {
                             transpileOnly: false,
                             experimentalWatchApi: false,
+                            appendTsSuffixTo: [/\.vue$/]
                         }
                     }
                 ],

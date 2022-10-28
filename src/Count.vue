@@ -2,9 +2,11 @@
   <div class="example">{{ msg }}</div>
 </template>
 
-<script lang="js">
+<script lang="ts">
 export default {
-  data () {
+  data () : {
+    msg: String
+  } {
     return {
       msg: 'Hello Power BI!'
     }
