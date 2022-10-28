@@ -3,15 +3,12 @@
 </template>
 
 <script lang="ts">
-export default {
-  data () : {
-    msg: String
-  } {
-    return {
-      msg: 'Hello Power BI!'
-    }
-  }
-}
+import { defineComponent } from "vue";
+export default defineComponent({
+  data() {
+    return { msg: "Hello Power BI!" };
+  },
+});
 </script>
 
 <style>
